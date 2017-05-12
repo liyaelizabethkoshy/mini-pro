@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lan="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.0/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+  <title>FIND MY RESTAURENT </title>
+  
+<style>
+input[type=text], select {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+input[type=submit] {
+    width: 100%;
+    background-color: #4CAF50;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    border-radius:4px;
+    cursor: pointer;
+}
+
+
+
+
+div {
+    border-radius: 5px;
+    background-color: #f2f2f2;
+    padding: 20px;
+    width: 50%;
+    left: 25%;
+    top:50%;
+    position:relative;
+    margin-top:50px;
+}
+
+h1{
+   color: white;
+   font-size: 40px;
+   font-weight: bold;
+   background-color: green;
+   text-align:center;
+}
+body {
+    background-image: url("d.jpg");
+}
+
+</style>
+</head>
+<body>
+
+<h1>ENTER THE DETAILS</h1>
+
+<div>
+  <form action="hope.php" method="POST">
+    <label for="DISHNAME">DISH NAME</label>
+    <input type="text" id="DISHNAME" name="DISHNAME" placeholder="Enter the name of the desired food item">
+
+    <label for="location">Location</label>
+    <input type="text" id="location" name="location" placeholder="Enter the location">
+
+    <input type="submit" value="Submit">
+  </form>
+</div>
+
+<div class="btn">
+  <a class="btn btn-primary btn-lg"href="w.html" role="button">HOME</a>
+  <a class="btn btn-primary btn-lg"href="w2.html" role="button">REFRESH</a>
+  </div>
+</body>
+</html>
+
